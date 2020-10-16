@@ -1,0 +1,159 @@
+section{
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+input{
+    border-radius: 3px;
+    border: 1px solid grey;
+}
+
+input[type="text"] {
+    padding: 8px;
+    margin: 4px;
+    width: 95%;
+    box-sizing: border-box;
+}
+
+input[type="date"] {
+    padding: 8px;
+    margin: 4px;
+    width: 25%;
+    box-sizing: border-box;
+}
+
+input[type=radio]{
+    margin-right: 4%;
+}
+
+select {
+    padding: 8px;
+    margin: 4px;
+    width: 95%;
+    box-sizing: border-box;
+}
+
+.centro {
+    position: fixed;
+    width: 50%;
+    right: 25%;
+    left: 35%;
+    top: 25%;
+}
+
+.formulario {
+    max-width: 30%;
+    padding: 30px;
+    border-radius: 8px;
+    font-family: "Helvetica";
+    background-color: #9c9e9e;
+    box-shadow: 20px 20px 50px black;
+    box-sizing: border-box;
+}
+
+.formLabel{
+    padding: 8px;
+    font-weight: bold;
+}
+
+.radioGroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.botonesGroup {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.inputsGroup{
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.greenButton{
+    border: none;
+    background-color: forestgreen;
+    color: whitesmoke;
+    border-radius: 4px;
+    margin: 4px;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.redButton{
+    border: none;
+    background-color: firebrick;
+    color: whitesmoke;
+    border-radius: 4px;
+    margin: 4px;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    font-weight: bold;
+
+}
+
+.closeButton {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 25px;
+    height: 25px;
+    border-radius: 8px;
+    border: black;
+    color: black;
+    background-color: firebrick;
+    text-align: center;
+}
+
+.closeButton:hover{
+    background-color: red;
+}
+
+.error{
+    border-radius: 3px;
+    border: 1px solid firebrick;
+    padding: 8px;
+    box-shadow: 1px 1px 10px firebrick; 
+}
+
+.loading{
+    position: fixed;
+    opacity: 0.5;
+    width: 100%;
+    right: 30%;
+    left: 40%;
+    top: 25%;
+}
+
+tr:nth-child(even){
+    background-color: #ccad85;
+}
+
+th, td {
+    text-align: center;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+th {
+    font-size: 23px;line-height: 2;font-weight: 900;
+}
+
+.tabla {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3px;
+    box-shadow: 3px 3px 15px 3px rgb(95, 91, 91);
+    padding: 6px;
+    box-sizing: border-box;
+    background-color: #757782;
+}
